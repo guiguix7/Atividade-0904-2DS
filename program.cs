@@ -50,13 +50,27 @@ class Program
     {
         var acao = new Categoria("Ação");
         var drama = new Categoria("Drama");
+        var comedia = new Categoria("Comédia");
+        var aventura = new Categoria("Aventura");
 
         var filme1 = new Filme("A Baleia", 117, drama);
         var filme2 = new Filme("O Poderoso Chefão", 175, drama);
-        var filme3 = new Filme("Shrek", 89, comedia);
+        var filme3 = new Filme("Montros SA", 92, comedia);
+        var filme4 = new Filme("Shrek", 89, comedia);
+        var filme5 = new Filme("Up: Altas Aventuras", 95, aventura);
+        var filme6 = new Filme("Shrek", 89, comedia);
+        var filme7 = new Filme("Homem-Aranha", 121, acao);
+        var filme8 = new Filme("O Senhor dos Anéis", 178, comedia);
+        var filme9 = new Filme("O Rei Leão", 118, comedia);
 
         filme1.Exibir();
         filme2.Exibir();
         filme3.Exibir();
+        filme4.Exibir();
+        filme5.Exibir();
+        filme6.Exibir();
+        filme7.Exibir();
+        filme8.Exibir();
+        filme9.Exibir();
     }
 }
