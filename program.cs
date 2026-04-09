@@ -51,9 +51,9 @@ class Program
         var acao = new Categoria("Ação");
         var drama = new Categoria("Drama");
 
-        var filme1 = new Filme("Vingadores: Ultimato", 181, acao);
+        var filme1 = new Filme("A Baleia", 117, drama);
         var filme2 = new Filme("O Poderoso Chefão", 175, drama);
-        var filme3 = new Filme("Mad Max: Estrada da Fúria", 120, acao);
+        var filme3 = new Filme("Shrek", 89, comedia);
 
         filme1.Exibir();
         filme2.Exibir();
